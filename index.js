@@ -1,0 +1,12 @@
+var aplePrice = 200;
+var serviceCost = "1000";
+console.log(aplePrice + serviceCost);
+console.log(typeof aplePrice, typeof serviceCost);
+serviceCost = parseInt("1000");
+console.log(aplePrice + serviceCost);
+console.log(typeof aplePrice + typeof serviceCost);
+var carPrice = parseFloat("12.5");
+var carServiceCost = parseFloat("12");
+var totalCost = (carPrice + carServiceCost);
+console.log(totalCost);
+console.log(carServiceCost + aplePrice);
