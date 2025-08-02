@@ -10,3 +10,12 @@ var carServiceCost = parseFloat("12");
 var totalCost = (carPrice + carServiceCost);
 console.log(totalCost);
 console.log(carServiceCost + aplePrice);
+
+
+
+var first = 0.1;
+var secend = 0.2;
+var total = (first + secend);
+console.log(total);
+var totalCount = parseFloat (total.toFixed(1));
+console.log(totalCount);
